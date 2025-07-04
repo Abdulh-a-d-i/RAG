@@ -3,7 +3,6 @@ import requests
 import os
 import re
 import tempfile
-import pdfplumber
 from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 
