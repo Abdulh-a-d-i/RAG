@@ -7,7 +7,7 @@ from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 
 # Configuration
-BACKEND_URL = "http://192.168.100.6:8000"
+BACKEND_URL = "http://127.0.0.1:7676"
 TEMP_DIR = "temp_media"
 
 os.makedirs(TEMP_DIR, exist_ok=True)
